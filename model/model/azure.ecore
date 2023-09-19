@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="azure" nsURI="ecore://nasdanika.org/models/azure" nsPrefix="org.nasdanika.models.azure">
+  <eClassifiers xsi:type="ecore:EClass" name="AzureElement" abstract="true">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="Base class for Azure architecture elements"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ManagementGroupElement" abstract="true"
+      eSuperTypes="#//AzureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ManagementGroup" eSuperTypes="#//ManagementGroupElement">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/general/10011-icon-service-Management-Groups.svg"/>
+      <details key="label" value="Management Group"/>
+      <details key="documentation-reference" value="doc/management-group.md"/>
+      <details key="description" value="Management groups are containers that help manage access, policy, and compliance across multiple subscriptions"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
+        eType="#//ManagementGroupElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Subscription" eSuperTypes="#//ManagementGroupElement">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/general/10002-icon-service-Subscriptions.svg"/>
+      <details key="documentation-reference" value="doc/subscription.md"/>
+      <details key="description" value="A logical container used to provision related resources"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="resourceGroups" upperBound="-1"
+        eType="#//ResourceGroup" containment="true">
+      <eAnnotations source="urn:org.nasdanika">
+        <details key="homogenous" value="true"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ResourceGroup" eSuperTypes="#//AzureElement">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/general/10007-icon-service-Resource-Groups.svg"/>
+      <details key="label" value="Resource Group"/>
+      <details key="documentation-reference" value="doc/resource-group.md"/>
+      <details key="description" value="A container that holds related resources for an Azure solution"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="resources" upperBound="-1"
+        eType="#//Resource" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Resource" abstract="true" eSuperTypes="#//AzureElement">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="A resource is an entity managed by Azure"/>
+    </eAnnotations>
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="description" value="An entity managed by Azure"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="locations" upperBound="-1"
+        eType="#//Location">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="A resource can be associated with zero or more locations. E.g. a VM can be deployed to a region or a specific availability zone in a region. A kubernetes cluster can be deployed to several availability zones."/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="resourceTags" upperBound="-1"
+        eType="#//Tag" containment="true" eKeys="#//Tag/key"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GenericResource" abstract="true" eSuperTypes="#//Resource">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="label" value="Generic Resource"/>
+      <details key="description" value="A resource which does not have a model class. Generic resources have &quot;kind&quot; (type)."/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="A resource which does not have a model class. Generic resources have &quot;kind&quot; (type)."/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Location" abstract="true" eSuperTypes="#//AzureElement">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="A base class for Region and Availability Zone to associate with resource. Some resources may be deployed to multiple locations."/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Region" eSuperTypes="#//Location">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="documentation-reference" value="doc/region.md"/>
+      <details key="description" value="A set of datacenters, deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="availabilityZones" upperBound="-1"
+        eType="#//AvailabilityZone" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AvailabilityZone" eSuperTypes="#//Location">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="label" value="Availability Zone"/>
+      <details key="documentation-reference" value="doc/availability-zone.md"/>
+      <details key="description" value="One or more physically and logically separated datacenters with their own independent power source, network, and cooling."/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RegionPair" eSuperTypes="#//AzureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Workload">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/workloads#what-is-a-workload"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag" instanceClassName="java.util.Map$Entry">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="documentation-reference" value="doc/property.md"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" lowerBound="1" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EObject"
+        containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>
