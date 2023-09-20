@@ -25,8 +25,29 @@ The [metamodel documentation](https://azure.models.nasdanika.org/index.html) may
 
 [^1]: Old diagram, broken icons. Diagram shapes have tooltips and are clickable.
 
-Models to be migrated from https://github.com/Nasdanika/architecture/tree/main/cloud/azure and reorganized into a single model with 
-the core elements such as tenant, resource, subscription in the root package and specializations in sub-packages - compute, networking, storage.
+### Customized documentation
+
+The metamodel documentation as explained above may accelerate learning of Azure concepts.
+With a plethora of books, courses, and online references its value-add may not justify creation and maintenance of the metamodel.
+However, unlike many other training/learning materials the metamodel can be customized similar to inheritance in object-oriented languages - a class can be sub-classed and its methods can be overridden.
+As a mater of fact, this is exactly how it works under the hood - a documentation generation processor is subclassed and its methods are overridden to customize documentation. [Example](https://github.com/Nasdanika/ecore-gen-test/blob/main/processors/src/main/java/org/nasdanika/models/ecore/test/processors/FoxProcessorsFactory.java#L34).
+
+This capability may be beneficial for organizations adopting Azure, especially large organizations with multiple groups taking care of different parts and adopting Azure at different pace.
+In this case there would be multiple documentation customizations with multiple releases organized along the [Enterprise Continuum](https://pubs.opengroup.org/togaf-standard/architecture-content/chap06.html#tag_06) similar to how it is done with, say, Java releases.
+
+Let's assume that there is an enterprise with a central cloud adoption organization "Cloud Services", segments, and multiple development organizations in each segment. 
+In this case:
+
+* The "Cloud Services" organization will take the metamodel and cusomize it by:
+    * Hiding (suppressing) model elements which the organization is not going to use at a particular stage of adoption. For example, [queue storage](https://azure.microsoft.com/en-us/products/storage/queues) may be out of scope for the wave X of aoption.
+    * Customizing documentation of the remaining elements. E.g. the generic documentation which explains how to create a subscription via the portal, API, SDK's etc. might be replaced with org-specific documentation which explains that a new subscription shall be created by creating an [IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) pipeline in a source repository and then creating a pull request. Or by submitting a request in the internal service management system.
+    * Creating flavors of documentation for different technologies
+* Segments may further customize documentation to address their specifics, e.g. the legal landscape or segment level technology choices. For example, the central function may provide a choice of cloud databases, and a segment may standardize on a subset.
+* Development teams may customize even further. For example, by providing documentation how to deploy components built using in-house developed technologies.
+    
+...
+
+
 
 In the long run the element may extend Solution Building BLock from the [Architecture](https://github.com/Nasdanika-Models/architecture)/[TOGAF](https://github.com/Nasdanika-Models/togaf) models.
 
