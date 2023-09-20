@@ -23,8 +23,7 @@ The [metamodel documentation](https://azure.models.nasdanika.org/index.html) may
 * Element pages, e.g. [Virtual Machine](http://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/index.html) would provide an overview of an element, possibly with interactive diagrams. Ideally, they would literally quote the official documentation - need to get a permission from [Microsoft Learn](https://learn.microsoft.com/en-us/). They would also provide links to in-depth documentation on Microsoft Learn and other sites. Element pages also feature a [generated context diagram](http://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/diagram.html) and graphs, e.g. [default force graph](http://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/default-graph.html). Context diagrams and graphs are smaller than package diagrams/graphs and allow to focus on a particular concept.
 * [Glossary](http://azure.models.nasdanika.org/glossary.html) provides an alphabetically ordered linear searchable representation of the model.
 
-
-[^1]Old diagram, broken icons. Diagram shapes have tooltips and are clickable.
+[^1]: Old diagram, broken icons. Diagram shapes have tooltips and are clickable.
 
 Models to be migrated from https://github.com/Nasdanika/architecture/tree/main/cloud/azure and reorganized into a single model with 
 the core elements such as tenant, resource, subscription in the root package and specializations in sub-packages - compute, networking, storage.
