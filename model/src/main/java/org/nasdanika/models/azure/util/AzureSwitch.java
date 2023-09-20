@@ -74,6 +74,13 @@ public class AzureSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case AzurePackage.TENANT: {
+				Tenant tenant = (Tenant)theEObject;
+				T result = caseTenant(tenant);
+				if (result == null) result = caseAzureElement(tenant);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			case AzurePackage.MANAGEMENT_GROUP_ELEMENT: {
 				ManagementGroupElement managementGroupElement = (ManagementGroupElement)theEObject;
 				T result = caseManagementGroupElement(managementGroupElement);
@@ -177,6 +184,21 @@ public class AzureSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseAzureElement(AzureElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Tenant</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Tenant</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTenant(Tenant object) {
 		return null;
 	}
 

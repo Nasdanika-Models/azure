@@ -6,6 +6,10 @@
       <details key="documentation" value="Base class for Azure architecture elements"/>
     </eAnnotations>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tenant" eSuperTypes="#//AzureElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="managementGroups" upperBound="-1"
+        eType="#//ManagementGroup" containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ManagementGroupElement" abstract="true"
       eSuperTypes="#//AzureElement"/>
   <eClassifiers xsi:type="ecore:EClass" name="ManagementGroup" eSuperTypes="#//ManagementGroupElement">
@@ -101,4 +105,200 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="value" lowerBound="1" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EObject"
         containment="true"/>
   </eClassifiers>
+  <eSubpackages name="networking" nsURI="ecore://nasdanika.org/models/azure/networking"
+      nsPrefix="org.nasdanika.models.azure.networking">
+    <eClassifiers xsi:type="ecore:EClass" name="VirtualNetwork" eSuperTypes="#//Resource">
+      <eAnnotations source="urn:org.nasdanika">
+        <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/networking/10061-icon-service-Virtual-Networks.svg"/>
+        <details key="label" value="Virtual Network"/>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="subnets" upperBound="-1"
+          eType="#//networking/Subnet" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="resources" eType="#//networking/VirtualNetworkResource"
+          eOpposite="#//networking/VirtualNetworkResource/virtualNetwork">
+        <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+          <details key="documentation" value="Resources connected to this Virtual Network. Computed opposite to VirtualNetworkResource.virtualNetwork"/>
+        </eAnnotations>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="VirtualNetworkResource" abstract="true"
+        eSuperTypes="#//Resource">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Base class for resources connected to a Virtual Network"/>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="virtualNetwork" eType="#//networking/VirtualNetwork"
+          eOpposite="#//networking/VirtualNetwork/resources">
+        <eAnnotations source="urn:org.nasdanika">
+          <details key="opposite" value="resources"/>
+        </eAnnotations>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Subnet" eSuperTypes="#//Resource">
+      <eAnnotations source="urn:org.nasdanika">
+        <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/networking/02742-icon-service-Subnet.svg"/>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="resources" upperBound="-1"
+          eType="#//networking/SubnetResource" eOpposite="#//networking/SubnetResource/subnet">
+        <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+          <details key="documentation" value="Resources connected to this subnet"/>
+        </eAnnotations>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SubnetResource" abstract="true" eSuperTypes="#//Resource">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Base class for resources connected to a Subnet"/>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="subnet" eType="#//networking/Subnet"
+          eOpposite="#//networking/Subnet/resources"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="NetworkInterface" eSuperTypes="#//networking/SubnetResource">
+      <eAnnotations source="urn:org.nasdanika">
+        <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/networking/10080-icon-service-Network-Interfaces.svg"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Service" eSuperTypes="#//Resource">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="endpoints" upperBound="-1"
+          eType="#//networking/ServiceEndpoint" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ServiceEndpoint"/>
+    <eClassifiers xsi:type="ecore:EClass" name="PrivateEnpoint" eSuperTypes="#//networking/SubnetResource #//networking/ServiceEndpoint">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="PublicEndpoint" eSuperTypes="#//AzureElement #//networking/ServiceEndpoint"/>
+  </eSubpackages>
+  <eSubpackages name="storage" nsURI="ecore://nasdanika.org/models/azure/storage"
+      nsPrefix="org.nasdanika.models.azure.storage">
+  <eClassifiers xsi:type="ecore:EClass" name="StorageAccount" eSuperTypes="#//Resource">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/storage/10086-icon-service-Storage-Accounts.svg"/>
+      <details key="label" value="Storage Account"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BlobStorage" eSuperTypes="#//AzureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataLakeStorageGen2" eSuperTypes="#//AzureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AzureFiles" eSuperTypes="#//AzureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="QueueStorage" eSuperTypes="#//AzureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TableStorage" eSuperTypes="#//AzureElement"/>
+      
+      
+  </eSubpackages>    
+  <eSubpackages name="compute" nsURI="ecore://nasdanika.org/models/azure/compute"
+      nsPrefix="org.nasdanika.models.azure.compute">
+  <eClassifiers xsi:type="ecore:EClass" name="VirtualMachine" eSuperTypes="#//Resource">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10021-icon-service-Virtual-Machine.svg"/>
+      <details key="label" value="Virtual Machine"/>
+      <details key="documentation-reference" value="doc/virtual-machine.md"/>
+      <details key="description" value="An image service instance that provides on-demand and scalable computing resources with usage-based pricing"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="disks" upperBound="-1"
+        eType="#//compute/Disk" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="networkInterfaces" eType="ecore:EClass #//networking/NetworkInterface"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="image" eType="#//compute/VirtualMachineImage">
+      <eAnnotations source="urn:org.nasdanika">
+        <details key="opposite" value="virtualMachines"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="size" eType="#//compute/VirtualMachineSize">
+      <eAnnotations source="urn:org.nasdanika">
+        <details key="opposite" value="virtualMachines"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Disk" eSuperTypes="#//Resource">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10032-icon-service-Disks.svg"/>
+      <details key="documentation-reference" value="doc/disk.md"/>
+      <details key="description" value="A block-level storage volume managed by Azure and used with Azure Virtual Machines"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="#//compute/DiskType">
+      <eAnnotations source="urn:org.nasdanika">
+        <details key="opposite" value="virtualMachines"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Disk size in gigabytes"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DiskType" eSuperTypes="#//AzureElement">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="label" value="Disk Type"/>
+      <details key="documentation-reference" value="doc/disk-type.md"/>
+      <details key="description" value="Azure managed disks currently offers five disk types, each intended to address a specific customer scenario"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="disks" upperBound="-1"
+        eType="#//compute/Disk" changeable="false" volatile="true" transient="true" derived="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Computed opposite to Disk.type"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VirtualMachineSize" eSuperTypes="#//AzureElement">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="label" value="Virtual Machine Size"/>
+      <details key="documentation-reference" value="doc/virtual-machine-size.md"/>
+      <details key="description" value="Size of a virtual machine in terms of CPU and RAM"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="virtualMachines" upperBound="-1"
+        eType="#//compute/VirtualMachine" changeable="false" volatile="true" transient="true"
+        derived="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Computed opposite to VirtualMachine.size"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VirtualMachineImage" eSuperTypes="#//AzureElement">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10040-icon-service-VM-Images-(Classic).svg"/>
+      <details key="label" value="Virtual Machine Image"/>
+      <details key="documentation-reference" value="doc/virtual-machine-image.md"/>
+      <details key="description" value="Initial contents of a VM disk used to initialize a VM"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="virtualMachines" upperBound="-1"
+        eType="#//compute/VirtualMachine" changeable="false" volatile="true" transient="true"
+        derived="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Computed opposite to VirtualMachine.image"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VirtualMachineScaleSet" eSuperTypes="#//compute/VirtualMachine">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10034-icon-service-VM-Scale-Sets.svg"/>
+      <details key="label" value="Virtual Machine Scale Set"/>
+      <details key="documentation-reference" value="doc/virtual-machine-scale-set.md"/>
+      <details key="description" value="Azure virtual machine scale sets let you create and manage a group of identical, load balanced VMs."/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AppService" eSuperTypes="#//Resource">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10035-icon-service-App-Services.svg"/>
+      <details key="label" value="App Service"/>
+      <details key="documentation-reference" value="doc/app-service.md"/>
+      <details key="description" value="An HTTP-based service for hosting web applications, REST APIs, and mobile back ends."/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContainerInstance" eSuperTypes="#//networking/SubnetResource">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10104-icon-service-Container-Instances.svg"/>
+      <details key="label" value="Container Instance"/>
+      <details key="documentation-reference" value="doc/container-instance.md"/>
+      <details key="description" value="Azure Container Instances (ACI) allows you to quickly and easily run containers on Azure without managing servers or having to learn new tools"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="KubernetesService" eSuperTypes="#//networking/VirtualNetworkResource">
+    <eAnnotations source="urn:org.nasdanika">
+      <details key="icon" value="https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10023-icon-service-Kubernetes-Services.svg"/>
+      <details key="label" value="Kubernetes Service"/>
+      <details key="documentation-reference" value="doc/kubernetes-service.md"/>
+      <details key="description" value="Azure Kubernetes Service (AKS) offers the quickest way to start developing and deploying cloud-native apps in Azure, datacenters, or at the edge with built-in code-to-cloud pipelines and guardrails"/>
+    </eAnnotations>
+  </eClassifiers>
+      
+  </eSubpackages>      
 </ecore:EPackage>

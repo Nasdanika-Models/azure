@@ -2,512 +2,1607 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
   <url>
     <loc>https://azure.models.nasdanika.org/circular-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2023-09-19T08:37:08.371-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.091-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.349-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.079-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/classifiers.html</loc>
-    <lastmod>2023-09-19T08:37:08.341-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.058-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/default-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2023-09-19T08:37:08.368-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.088-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.347-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.076-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.345-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.071-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/force-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2023-09-19T08:37:08.374-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.096-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.364-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.084-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/glossary.html</loc>
-    <lastmod>2023-09-19T08:37:08.385-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.119-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/index.html</loc>
-    <lastmod>2023-09-19T08:37:07.999-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.740-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AvailabilityZone/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.025-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.775-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AvailabilityZone/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.022-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.770-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AvailabilityZone/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.016-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.766-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AvailabilityZone/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.029-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.778-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AvailabilityZone/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.008-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.750-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AvailabilityZone/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.012-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.758-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AzureElement/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.078-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.808-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AzureElement/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.076-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.805-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AzureElement/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.074-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.790-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AzureElement/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.080-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.812-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AzureElement/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.068-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.782-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/AzureElement/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.071-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.786-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/GenericResource/attributes.html</loc>
-    <lastmod>2023-09-19T08:37:08.092-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.846-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/GenericResource/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.114-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.859-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/GenericResource/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.108-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.856-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/GenericResource/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.104-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.854-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/GenericResource/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.118-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.861-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/GenericResource/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.089-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.844-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/GenericResource/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.095-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.849-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/GenericResource/references.html</loc>
-    <lastmod>2023-09-19T08:37:08.098-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.851-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Location/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.145-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.878-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Location/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.142-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.876-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Location/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.138-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.870-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Location/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.148-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.881-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Location/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.122-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.864-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Location/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.130-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.868-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroup/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.172-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.905-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroup/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.170-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.898-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroup/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.166-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.894-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroup/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.176-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.909-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroup/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.151-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.885-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroup/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.153-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.888-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroup/load-specification.html</loc>
-    <lastmod>2023-09-19T08:37:08.180-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.912-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroup/references.html</loc>
-    <lastmod>2023-09-19T08:37:08.157-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.890-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroupElement/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.195-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.934-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroupElement/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.193-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.930-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroupElement/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.191-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.927-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroupElement/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.197-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.937-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroupElement/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.185-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.921-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ManagementGroupElement/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.188-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.924-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Region/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.214-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.956-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Region/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.211-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.953-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Region/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.209-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.950-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Region/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.218-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.959-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Region/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.200-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.941-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Region/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.204-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.943-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Region/load-specification.html</loc>
-    <lastmod>2023-09-19T08:37:08.222-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.963-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Region/references.html</loc>
-    <lastmod>2023-09-19T08:37:08.206-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.946-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/RegionPair/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.234-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.982-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/RegionPair/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.232-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.979-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/RegionPair/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.230-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.976-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/RegionPair/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.237-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.986-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/RegionPair/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.226-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.971-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/RegionPair/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.228-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.973-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Resource/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.255-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.009-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Resource/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.253-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.006-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Resource/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.251-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.004-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Resource/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.257-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.011-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Resource/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.240-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.989-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Resource/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.242-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.992-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Resource/references/eStructuralFeatures/locations/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.248-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.001-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Resource/references.html</loc>
-    <lastmod>2023-09-19T08:37:08.244-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:04.995-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ResourceGroup/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.274-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.029-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ResourceGroup/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.271-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.025-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ResourceGroup/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.267-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.022-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ResourceGroup/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.277-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.034-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ResourceGroup/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.259-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.014-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ResourceGroup/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.261-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.017-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ResourceGroup/load-specification.html</loc>
-    <lastmod>2023-09-19T08:37:08.279-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.038-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/ResourceGroup/references.html</loc>
-    <lastmod>2023-09-19T08:37:08.264-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.020-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Subscription/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.296-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.063-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Subscription/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.294-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.059-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Subscription/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.292-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.056-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Subscription/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.298-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.066-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Subscription/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.283-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.043-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Subscription/inheritance.html</loc>
-    <lastmod>2023-09-19T08:37:08.285-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.046-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Subscription/load-specification.html</loc>
-    <lastmod>2023-09-19T08:37:08.300-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.069-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Subscription/references.html</loc>
-    <lastmod>2023-09-19T08:37:08.288-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.051-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tag/attributes.html</loc>
-    <lastmod>2023-09-19T08:37:08.306-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.075-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tag/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.322-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.089-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tag/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.316-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.086-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tag/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.314-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.083-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tag/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.324-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.092-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tag/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.304-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.073-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tag/load-specification.html</loc>
-    <lastmod>2023-09-19T08:37:08.326-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.096-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tag/references.html</loc>
-    <lastmod>2023-09-19T08:37:08.309-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.078-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tenant/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.116-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tenant/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.112-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tenant/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.109-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tenant/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.119-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tenant/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.101-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tenant/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.103-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tenant/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.122-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eClassifiers/Tenant/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.106-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Workload/circular-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.336-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.134-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Workload/default-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.334-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.132-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Workload/diagram.html</loc>
-    <lastmod>2023-09-19T08:37:08.331-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.129-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Workload/force-layout-graph.html</loc>
-    <lastmod>2023-09-19T08:37:08.338-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.137-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/references/eClassifiers/Workload/index.html</loc>
-    <lastmod>2023-09-19T08:37:08.329-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:05.126-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/circular-layout-graph-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2023-09-20T06:52:05.482-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.466-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/classifiers.html</loc>
+    <lastmod>2023-09-20T06:52:05.452-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/default-graph-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2023-09-20T06:52:05.477-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.462-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.458-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/force-layout-graph-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2023-09-20T06:52:05.487-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.472-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.141-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/AppService/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.160-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/AppService/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.157-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/AppService/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.155-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/AppService/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.174-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/AppService/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.146-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/AppService/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.149-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/AppService/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.178-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/AppService/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.152-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/ContainerInstance/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.208-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/ContainerInstance/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.202-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/ContainerInstance/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.195-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/ContainerInstance/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.216-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/ContainerInstance/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.182-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/ContainerInstance/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.187-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/ContainerInstance/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.219-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/ContainerInstance/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.192-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/attributes.html</loc>
+    <lastmod>2023-09-20T06:52:05.225-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.250-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.246-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.243-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.253-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.223-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.236-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.257-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/references/eStructuralFeatures/size/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.232-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/Disk/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.239-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/DiskType/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.281-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/DiskType/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.278-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/DiskType/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.276-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/DiskType/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.284-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/DiskType/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.261-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/DiskType/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.263-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/DiskType/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.287-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/DiskType/references/eStructuralFeatures/disks/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.272-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/DiskType/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.266-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/KubernetesService/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.304-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/KubernetesService/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.302-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/KubernetesService/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.299-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/KubernetesService/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.307-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/KubernetesService/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.290-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/KubernetesService/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.293-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/KubernetesService/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.309-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/KubernetesService/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.295-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.347-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.343-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.339-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.352-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.321-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.327-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.355-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachine/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.333-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineImage/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.380-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineImage/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.377-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineImage/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.374-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineImage/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.386-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineImage/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.358-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineImage/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.361-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineImage/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.389-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineImage/references/eStructuralFeatures/virtualMachines/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.371-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineImage/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.365-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineScaleSet/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.410-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineScaleSet/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.407-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineScaleSet/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.405-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineScaleSet/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.413-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineScaleSet/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.393-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineScaleSet/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.396-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineScaleSet/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.417-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineScaleSet/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.401-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineSize/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.444-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineSize/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.441-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineSize/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.439-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineSize/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.447-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineSize/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.421-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineSize/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.424-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineSize/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.450-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineSize/references/eStructuralFeatures/virtualMachines/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.436-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/compute/references/eClassifiers/VirtualMachineSize/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.426-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/circular-layout-graph-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2023-09-20T06:52:05.842-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.832-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/classifiers.html</loc>
+    <lastmod>2023-09-20T06:52:05.794-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/default-graph-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2023-09-20T06:52:05.839-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.828-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.825-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/force-layout-graph-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2023-09-20T06:52:05.845-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.836-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.490-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/NetworkInterface/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.517-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/NetworkInterface/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.513-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/NetworkInterface/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.509-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/NetworkInterface/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.521-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/NetworkInterface/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.496-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/NetworkInterface/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.500-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/NetworkInterface/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.523-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/NetworkInterface/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.505-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PrivateEnpoint/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.543-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PrivateEnpoint/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.540-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PrivateEnpoint/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.537-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PrivateEnpoint/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.546-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PrivateEnpoint/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.527-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PrivateEnpoint/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.529-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PrivateEnpoint/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.550-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PrivateEnpoint/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.533-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PublicEndpoint/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.576-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PublicEndpoint/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.564-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PublicEndpoint/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.561-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PublicEndpoint/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.591-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PublicEndpoint/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.554-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/PublicEndpoint/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.557-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Service/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.613-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Service/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.610-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Service/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.608-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Service/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.616-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Service/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.599-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Service/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.602-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Service/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.626-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Service/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.605-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/ServiceEndpoint/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.650-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/ServiceEndpoint/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.644-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/ServiceEndpoint/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.641-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/ServiceEndpoint/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.655-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/ServiceEndpoint/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.632-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/ServiceEndpoint/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.637-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Subnet/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.691-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Subnet/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.687-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Subnet/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.680-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Subnet/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.694-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Subnet/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.659-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Subnet/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.662-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Subnet/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.697-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Subnet/references/eStructuralFeatures/resources/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.673-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/Subnet/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.665-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/SubnetResource/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.717-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/SubnetResource/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.712-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/SubnetResource/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.710-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/SubnetResource/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.721-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/SubnetResource/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.701-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/SubnetResource/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.704-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/SubnetResource/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.707-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetwork/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.747-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetwork/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.744-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetwork/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.741-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetwork/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.751-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetwork/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.725-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetwork/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.727-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetwork/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.754-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetwork/references/eStructuralFeatures/resources/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.737-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetwork/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.730-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetworkResource/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.785-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetworkResource/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.778-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetworkResource/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.773-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetworkResource/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.791-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetworkResource/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.758-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetworkResource/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.761-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/networking/references/eClassifiers/VirtualNetworkResource/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.767-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/circular-layout-graph-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2023-09-20T06:52:06.051-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:06.043-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/classifiers.html</loc>
+    <lastmod>2023-09-20T06:52:06.035-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/default-graph-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2023-09-20T06:52:06.048-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:06.040-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:06.038-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/force-layout-graph-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2023-09-20T06:52:06.054-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:06.045-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.849-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/AzureFiles/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.868-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/AzureFiles/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.865-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/AzureFiles/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.861-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/AzureFiles/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.871-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/AzureFiles/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.855-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/AzureFiles/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.858-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/BlobStorage/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.887-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/BlobStorage/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.885-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/BlobStorage/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.880-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/BlobStorage/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.890-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/BlobStorage/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.874-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/BlobStorage/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.877-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/DataLakeStorageGen2/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.903-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/DataLakeStorageGen2/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.901-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/DataLakeStorageGen2/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.898-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/DataLakeStorageGen2/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.906-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/DataLakeStorageGen2/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.893-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/DataLakeStorageGen2/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.895-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/QueueStorage/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.928-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/QueueStorage/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.925-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/QueueStorage/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.914-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/QueueStorage/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.933-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/QueueStorage/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.909-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/QueueStorage/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.911-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/StorageAccount/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.961-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/StorageAccount/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.958-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/StorageAccount/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.954-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/StorageAccount/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.964-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/StorageAccount/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.940-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/StorageAccount/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.944-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/StorageAccount/load-specification.html</loc>
+    <lastmod>2023-09-20T06:52:05.967-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/StorageAccount/references.html</loc>
+    <lastmod>2023-09-20T06:52:05.949-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/TableStorage/circular-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:06.029-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/TableStorage/default-graph.html</loc>
+    <lastmod>2023-09-20T06:52:05.981-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/TableStorage/diagram.html</loc>
+    <lastmod>2023-09-20T06:52:05.978-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/TableStorage/force-layout-graph.html</loc>
+    <lastmod>2023-09-20T06:52:06.032-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/TableStorage/index.html</loc>
+    <lastmod>2023-09-20T06:52:05.972-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/references/eSubpackages/storage/references/eClassifiers/TableStorage/inheritance.html</loc>
+    <lastmod>2023-09-20T06:52:05.975-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://azure.models.nasdanika.org/search.html</loc>
-    <lastmod>2023-09-19T08:37:08.380-04:00</lastmod>
+    <lastmod>2023-09-20T06:52:06.106-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://azure.models.nasdanika.org/sub-packages.html</loc>
+    <lastmod>2023-09-20T06:52:06.062-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

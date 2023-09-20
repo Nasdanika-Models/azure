@@ -9,6 +9,9 @@
   <genPackages prefix="Azure" basePackage="org.nasdanika.models" disposableProviderFactory="true"
       ecorePackage="azure.ecore#/">
     <genClasses image="false" ecoreClass="azure.ecore#//AzureElement"/>
+    <genClasses ecoreClass="azure.ecore#//Tenant">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference azure.ecore#//Tenant/managementGroups"/>
+    </genClasses>
     <genClasses image="false" ecoreClass="azure.ecore#//ManagementGroupElement"/>
     <genClasses ecoreClass="azure.ecore#//ManagementGroup">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference azure.ecore#//ManagementGroup/elements"/>
@@ -37,5 +40,70 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute azure.ecore#//Tag/key"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference azure.ecore#//Tag/value"/>
     </genClasses>
+    <nestedGenPackages prefix="Networking" basePackage="org.nasdanika.models.azure"
+        disposableProviderFactory="true" ecorePackage="azure.ecore#//networking">
+      <genClasses ecoreClass="azure.ecore#//networking/VirtualNetwork">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference azure.ecore#//networking/VirtualNetwork/subnets"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference azure.ecore#//networking/VirtualNetwork/resources"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="azure.ecore#//networking/VirtualNetworkResource">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference azure.ecore#//networking/VirtualNetworkResource/virtualNetwork"/>
+      </genClasses>
+      <genClasses ecoreClass="azure.ecore#//networking/Subnet">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference azure.ecore#//networking/Subnet/resources"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="azure.ecore#//networking/SubnetResource">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference azure.ecore#//networking/SubnetResource/subnet"/>
+      </genClasses>
+      <genClasses ecoreClass="azure.ecore#//networking/NetworkInterface"/>
+      <genClasses ecoreClass="azure.ecore#//networking/Service">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference azure.ecore#//networking/Service/endpoints"/>
+      </genClasses>
+      <genClasses ecoreClass="azure.ecore#//networking/ServiceEndpoint"/>
+      <genClasses ecoreClass="azure.ecore#//networking/PrivateEnpoint"/>
+      <genClasses ecoreClass="azure.ecore#//networking/PublicEndpoint"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Storage" basePackage="org.nasdanika.models.azure" disposableProviderFactory="true"
+        ecorePackage="azure.ecore#//storage">
+      <genClasses ecoreClass="azure.ecore#//storage/StorageAccount"/>
+      <genClasses ecoreClass="azure.ecore#//storage/BlobStorage"/>
+      <genClasses ecoreClass="azure.ecore#//storage/DataLakeStorageGen2"/>
+      <genClasses ecoreClass="azure.ecore#//storage/AzureFiles"/>
+      <genClasses ecoreClass="azure.ecore#//storage/QueueStorage"/>
+      <genClasses ecoreClass="azure.ecore#//storage/TableStorage"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Compute" basePackage="org.nasdanika.models.azure" disposableProviderFactory="true"
+        ecorePackage="azure.ecore#//compute">
+      <genClasses ecoreClass="azure.ecore#//compute/VirtualMachine">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference azure.ecore#//compute/VirtualMachine/disks"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference azure.ecore#//compute/VirtualMachine/networkInterfaces"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference azure.ecore#//compute/VirtualMachine/image"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference azure.ecore#//compute/VirtualMachine/size"/>
+      </genClasses>
+      <genClasses ecoreClass="azure.ecore#//compute/Disk">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference azure.ecore#//compute/Disk/type"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute azure.ecore#//compute/Disk/size"/>
+      </genClasses>
+      <genClasses ecoreClass="azure.ecore#//compute/DiskType">
+        <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference azure.ecore#//compute/DiskType/disks"/>
+      </genClasses>
+      <genClasses ecoreClass="azure.ecore#//compute/VirtualMachineSize">
+        <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference azure.ecore#//compute/VirtualMachineSize/virtualMachines"/>
+      </genClasses>
+      <genClasses ecoreClass="azure.ecore#//compute/VirtualMachineImage">
+        <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference azure.ecore#//compute/VirtualMachineImage/virtualMachines"/>
+      </genClasses>
+      <genClasses ecoreClass="azure.ecore#//compute/VirtualMachineScaleSet"/>
+      <genClasses ecoreClass="azure.ecore#//compute/AppService"/>
+      <genClasses ecoreClass="azure.ecore#//compute/ContainerInstance"/>
+      <genClasses ecoreClass="azure.ecore#//compute/KubernetesService"/>
+    </nestedGenPackages>
   </genPackages>
 </genmodel:GenModel>

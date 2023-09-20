@@ -58,6 +58,7 @@ public class AzureFactoryImpl extends EFactoryImpl implements AzureFactory {
 	@Override
 	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
+			case AzurePackage.TENANT: return createTenant();
 			case AzurePackage.MANAGEMENT_GROUP: return createManagementGroup();
 			case AzurePackage.SUBSCRIPTION: return createSubscription();
 			case AzurePackage.RESOURCE_GROUP: return createResourceGroup();
@@ -69,6 +70,17 @@ public class AzureFactoryImpl extends EFactoryImpl implements AzureFactory {
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Tenant createTenant() {
+		TenantImpl tenant = new TenantImpl();
+		return tenant;
 	}
 
 	/**

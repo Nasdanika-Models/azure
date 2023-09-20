@@ -24,7 +24,14 @@ import org.nasdanika.models.azure.RegionPair;
 import org.nasdanika.models.azure.Resource;
 import org.nasdanika.models.azure.ResourceGroup;
 import org.nasdanika.models.azure.Subscription;
+import org.nasdanika.models.azure.Tenant;
 import org.nasdanika.models.azure.Workload;
+import org.nasdanika.models.azure.compute.ComputePackage;
+import org.nasdanika.models.azure.compute.impl.ComputePackageImpl;
+import org.nasdanika.models.azure.networking.NetworkingPackage;
+import org.nasdanika.models.azure.networking.impl.NetworkingPackageImpl;
+import org.nasdanika.models.azure.storage.StoragePackage;
+import org.nasdanika.models.azure.storage.impl.StoragePackageImpl;
 
 /**
  * <!-- begin-user-doc -->
@@ -39,6 +46,13 @@ public class AzurePackageImpl extends EPackageImpl implements AzurePackage {
 	 * @generated
 	 */
 	private EClass azureElementEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass tenantEClass = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -170,11 +184,25 @@ public class AzurePackageImpl extends EPackageImpl implements AzurePackage {
 
 		isInited = true;
 
+		// Obtain or create and register interdependencies
+		Object registeredPackage = EPackage.Registry.INSTANCE.getEPackage(NetworkingPackage.eNS_URI);
+		NetworkingPackageImpl theNetworkingPackage = (NetworkingPackageImpl)(registeredPackage instanceof NetworkingPackageImpl ? registeredPackage : NetworkingPackage.eINSTANCE);
+		registeredPackage = EPackage.Registry.INSTANCE.getEPackage(StoragePackage.eNS_URI);
+		StoragePackageImpl theStoragePackage = (StoragePackageImpl)(registeredPackage instanceof StoragePackageImpl ? registeredPackage : StoragePackage.eINSTANCE);
+		registeredPackage = EPackage.Registry.INSTANCE.getEPackage(ComputePackage.eNS_URI);
+		ComputePackageImpl theComputePackage = (ComputePackageImpl)(registeredPackage instanceof ComputePackageImpl ? registeredPackage : ComputePackage.eINSTANCE);
+
 		// Create package meta-data objects
 		theAzurePackage.createPackageContents();
+		theNetworkingPackage.createPackageContents();
+		theStoragePackage.createPackageContents();
+		theComputePackage.createPackageContents();
 
 		// Initialize created meta-data
 		theAzurePackage.initializePackageContents();
+		theNetworkingPackage.initializePackageContents();
+		theStoragePackage.initializePackageContents();
+		theComputePackage.initializePackageContents();
 
 		// Mark meta-data to indicate it can't be changed
 		theAzurePackage.freeze();
@@ -192,6 +220,26 @@ public class AzurePackageImpl extends EPackageImpl implements AzurePackage {
 	@Override
 	public EClass getAzureElement() {
 		return azureElementEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getTenant() {
+		return tenantEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getTenant_ManagementGroups() {
+		return (EReference)tenantEClass.getEStructuralFeatures().get(0);
 	}
 
 	/**
@@ -435,6 +483,9 @@ public class AzurePackageImpl extends EPackageImpl implements AzurePackage {
 		// Create classes and their features
 		azureElementEClass = createEClass(AZURE_ELEMENT);
 
+		tenantEClass = createEClass(TENANT);
+		createEReference(tenantEClass, TENANT__MANAGEMENT_GROUPS);
+
 		managementGroupElementEClass = createEClass(MANAGEMENT_GROUP_ELEMENT);
 
 		managementGroupEClass = createEClass(MANAGEMENT_GROUP);
@@ -492,11 +543,22 @@ public class AzurePackageImpl extends EPackageImpl implements AzurePackage {
 		setNsPrefix(eNS_PREFIX);
 		setNsURI(eNS_URI);
 
+		// Obtain other dependent packages
+		NetworkingPackage theNetworkingPackage = (NetworkingPackage)EPackage.Registry.INSTANCE.getEPackage(NetworkingPackage.eNS_URI);
+		StoragePackage theStoragePackage = (StoragePackage)EPackage.Registry.INSTANCE.getEPackage(StoragePackage.eNS_URI);
+		ComputePackage theComputePackage = (ComputePackage)EPackage.Registry.INSTANCE.getEPackage(ComputePackage.eNS_URI);
+
+		// Add subpackages
+		getESubpackages().add(theNetworkingPackage);
+		getESubpackages().add(theStoragePackage);
+		getESubpackages().add(theComputePackage);
+
 		// Create type parameters
 
 		// Set bounds for type parameters
 
 		// Add supertypes to classes
+		tenantEClass.getESuperTypes().add(this.getAzureElement());
 		managementGroupElementEClass.getESuperTypes().add(this.getAzureElement());
 		managementGroupEClass.getESuperTypes().add(this.getManagementGroupElement());
 		subscriptionEClass.getESuperTypes().add(this.getManagementGroupElement());
@@ -510,6 +572,9 @@ public class AzurePackageImpl extends EPackageImpl implements AzurePackage {
 
 		// Initialize classes, features, and operations; add parameters
 		initEClass(azureElementEClass, AzureElement.class, "AzureElement", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(tenantEClass, Tenant.class, "Tenant", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getTenant_ManagementGroups(), this.getManagementGroup(), null, "managementGroups", null, 0, -1, Tenant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(managementGroupElementEClass, ManagementGroupElement.class, "ManagementGroupElement", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 

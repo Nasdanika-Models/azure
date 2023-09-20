@@ -36,5 +36,7 @@ bootstrap-page:
   body:
     app-page:
       fluid: true
+      navigation-panel:
+        style: SEARCHABLE_TREE
         
  

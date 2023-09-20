@@ -9,7 +9,16 @@ Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: org.nasdanika.models.azure,
+ org.nasdanika.models.azure.compute,
+ org.nasdanika.models.azure.compute.impl,
+ org.nasdanika.models.azure.compute.util,
  org.nasdanika.models.azure.impl,
+ org.nasdanika.models.azure.networking,
+ org.nasdanika.models.azure.networking.impl,
+ org.nasdanika.models.azure.networking.util,
+ org.nasdanika.models.azure.storage,
+ org.nasdanika.models.azure.storage.impl,
+ org.nasdanika.models.azure.storage.util,
  org.nasdanika.models.azure.util
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="EN">
+  <head>
+    <title>References</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" id="nsd-bootstrap-theme-stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/themes/default/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.css">
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/dark-head.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/components/table.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/components/table.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9BRJVLK8CC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9BRJVLK8CC');
+</script>    
+
+<script src="../../../../../../search-documents.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/olivernn/lunr.js@v2.3.9/lunr.js"></script>
+
+<script>
+// Script for full-text search of JsTree
+
+window.nsdJsTreeSearchCallback = function(str, node) { 
+    var sf = new $.vakata.search(str, true, { caseSensitive : false, fuzzy : false }); 
+    if (sf.search(node.text).isMatch) {
+		return true;
+	} 
+    let searchResult = this.search(str); 
+    for (const sr in searchResult) {
+        if (searchResult[sr].ref === node.original['data-nsd-label-uuid']) {
+            return true;
+        } 
+    } 
+    return false; 
+}.bind(lunr(function () {
+			  this.ref('id');
+			  this.field('title');
+			  this.field('content');
+
+			  for (const key in searchDocuments) {
+				  let doc = searchDocuments[key];
+				this.add({
+					id: doc['action-uuid'],
+					title: doc.title,
+					path: doc.path,
+					content: doc.content
+				});  
+			  }
+			}));
+</script>
+</head>
+  <body>
+    <div class="container-fluid nsd-app-container">
+      <div class="row">
+        <div class="col nsd-app-header">
+          <a href="https://github.com/Nasdanika-Models" data-nsd-label-uuid="41258f1d-a458-4906-915c-e83d93dc5c80" class="nsd-app-header-title">
+            <img src="https://docs.nasdanika.org/images/nasdanika-logo.png" class="nsd-app-label-icon">Nasdanika Models</a>
+          <ul class="nav nsd-app-header-navs">
+            <li class="nav-item">
+              <a href="../../../../../../search.html" data-nsd-label-uuid="cb2bd636-3fb2-47f1-8428-eb65907b94ce" class="nav-link"><span class="fas fa-search nsd-app-label-icon"></span>Search</a>
+            </li>
+            <li class="nav-item">
+              <a href="../../../../../../glossary.html" data-nsd-label-uuid="1d3f30ee-b562-4a2d-ae05-189b03c5b69d" class="nav-link"><span class="fas fa-book nsd-app-label-icon"></span>Glossary</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col nsd-app-navbar">
+          <ul class="navbar navbar-light navbar-expand-lg">
+            <a href="../../../../../../index.html" data-nsd-label-uuid="c528e2e3-2c9b-43a6-94dd-42e6ede637b4" class="navbar-brand">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif" class="nsd-app-label-icon">azure</a>
+            <button type="button" data-toggle="collapse" data-target="#nsd_3xu" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nsd_3xu" class="collapse navbar-collapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a href="../../../../../../classifiers.html" data-nsd-label-uuid="d82e0e83-6fbe-4450-ab52-24d50f83db5c" class="nav-link">Classifiers</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../../../../../../sub-packages.html" data-nsd-label-uuid="437baaf9-ab3d-4d71-975b-858e0e04f2ad" class="nav-link">
+                    <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif" class="nsd-app-label-icon">Sub-packages</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../../../../../../diagram.html" data-nsd-label-uuid="7b219070-7a43-47b4-8184-2bcb98d2a55c" class="nav-link"><span class="fas fa-project-diagram nsd-app-label-icon"></span>Diagram</a>
+                </li>
+                <li class="nav-item">
+                  </li><li data-nsd-label-uuid="37f4484d-2a07-41dd-a047-694ecf940693" class="dropdown">
+                    <a role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">
+                      <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png" class="nsd-app-label-icon">Graphs</a>
+                    <div class="dropdown-menu">
+                      <a href="../../../../../../default-graph.html" data-nsd-label-uuid="bdf9742f-ace5-482b-854a-79e1fcd15a6e" class="dropdown-item">Default Graph</a>
+                      <a href="../../../../../../circular-layout-graph.html" data-nsd-label-uuid="df2c69c7-479b-4d41-a606-e3dc4215f8a3" class="dropdown-item">Circular Graph</a>
+                      <a href="../../../../../../force-layout-graph.html" data-nsd-label-uuid="744ce01d-6bcb-4eaa-9b09-3433cad5bc04" class="dropdown-item">Force Graph</a>
+                      <div title="With dependencies and sub-packages" class="dropdown-divider"></div>
+                      <a href="../../../../../../default-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="1870165b-853e-4119-b027-32f96ef907c7" class="dropdown-item">Default Graph</a>
+                      <a href="../../../../../../circular-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="24935fe5-185e-4f71-be6a-12ba168155cf" class="dropdown-item">Circular Graph</a>
+                      <a href="../../../../../../force-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="e47bd483-e4c6-4a16-b318-5ffe43bf5407" class="dropdown-item">Force Graph</a>
+                    </div>
+                  </li>
+                
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="row nsd-app-content-row">
+        <div class="col nsd-app-navigation-panel">
+          <input type="text" id="a9f46ad8-c3fa-4424-ba1e-9c7048d6e26c-navigation-panel_searchInput" title="Full-text search. You can use wildcards, e.g. 'foo*' or 'f*o'; title or content fields, e.g. 'title:foo* bar'; boosts, e.g. 'foo^10 bar'; fuzzy matches, e.g. 'foo~1'; and term presence, e.g. '+foo bar -baz'" class="form-control mt-1">
+          <div id="a9f46ad8-c3fa-4424-ba1e-9c7048d6e26c-navigation-panel"></div>
+          <script>$(document).ready( function() {
+$('#a9f46ad8-c3fa-4424-ba1e-9c7048d6e26c-navigation-panel').jstree(function(tree) { tree.state.filter = function(state) { delete state.core.selected; return state; };  tree.search.search_callback = function(searchStr, node) { if (typeof window.nsdJsTreeSearchCallback === 'function') return window.nsdJsTreeSearchCallback(searchStr, node); var sf = new $.vakata.search(searchStr, true, { caseSensitive : false, fuzzy : false }); return sf.search(node.text).isMatch; }; return tree; }({"core":{"data":[{"a_attr":{"title":"One or more physically and logically separated datacenters with their own independent power source, network, and cooling.","onclick":"window.location='../../../../../eClassifiers/AvailabilityZone/index.html';"},"data-nsd-label-uuid":"3891db93-b773-45a7-93d2-b44e8251a177","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-d0f3f7df-9417-4812-a7ff-578662b75395","text":"Availability Zone","type":"leaf"},{"a_attr":{"title":"Base class for Azure architecture elements","onclick":"window.location='../../../../../eClassifiers/AzureElement/index.html';"},"data-nsd-label-uuid":"e117350a-f37d-4ca4-ba3f-03971229d276","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-0c3f845a-83b9-4061-a2ae-28cd802c7c37","text":"<i>AzureElement<\/i>","type":"leaf"},{"a_attr":{"title":"A resource which does not have a model class. Generic resources have \"kind\" (type).","onclick":"window.location='../../../../../eClassifiers/GenericResource/index.html';"},"data-nsd-label-uuid":"fc6fbf16-10f8-40ee-9d00-3b7ce0ba6f44","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-7b2c12eb-a19f-4595-9d15-71a383447327","text":"<i>Generic Resource<\/i>","type":"leaf"},{"a_attr":{"title":"A base class for Region and Availability Zone to associate with resource. Some resources may be deployed to multiple locations.","onclick":"window.location='../../../../../eClassifiers/Location/index.html';"},"data-nsd-label-uuid":"3c000188-6b64-4fb0-aaef-0f8515a59fbe","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-6192de6b-7534-453b-a971-1427baf913d3","text":"<i>Location<\/i>","type":"leaf"},{"a_attr":{"title":"Management groups are containers that help manage access, policy, and compliance across multiple subscriptions","onclick":"window.location='../../../../../eClassifiers/ManagementGroup/index.html';"},"data-nsd-label-uuid":"4afea52f-5cf0-4b64-a1cf-b3f6ed3a94ea","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/general/10011-icon-service-Management-Groups.svg","id":"nsd-app-nav-item-b816dc01-e1c2-41bb-9068-afe3b6d7fc2c","text":"Management Group","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../../eClassifiers/ManagementGroupElement/index.html';"},"data-nsd-label-uuid":"e42ff590-c5a7-4363-8a0f-8acc077f76c8","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-91ab67e9-de2b-4d0e-a291-e63b1906394f","text":"<i>ManagementGroupElement<\/i>","type":"leaf"},{"a_attr":{"title":"A set of datacenters, deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network","onclick":"window.location='../../../../../eClassifiers/Region/index.html';"},"data-nsd-label-uuid":"abaca29f-0143-40ca-a2df-12f88c025f3c","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-69db663e-a35d-4177-bac4-29c2db556583","text":"Region","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../../eClassifiers/RegionPair/index.html';"},"data-nsd-label-uuid":"e5833bc1-f9ce-40dc-8e8f-bc620d87e519","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-1014d2e9-8906-4028-952f-80a82f5aa813","text":"RegionPair","type":"leaf"},{"a_attr":{"title":"An entity managed by Azure","onclick":"window.location='../../../../../eClassifiers/Resource/index.html';"},"data-nsd-label-uuid":"760a5070-cf19-47e4-ad03-6dacecd89c48","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-3c6c6a00-0871-4740-a571-195ef2b3e979","text":"<i>Resource<\/i>","type":"leaf"},{"a_attr":{"title":"A container that holds related resources for an Azure solution","onclick":"window.location='../../../../../eClassifiers/ResourceGroup/index.html';"},"data-nsd-label-uuid":"fa5f625f-d5d1-48ca-80e7-fb43827114ed","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/general/10007-icon-service-Resource-Groups.svg","id":"nsd-app-nav-item-48df1818-6df5-4de1-82d3-a94bbcaa941c","text":"Resource Group","type":"leaf"},{"a_attr":{"title":"A logical container used to provision related resources","onclick":"window.location='../../../../../eClassifiers/Subscription/index.html';"},"data-nsd-label-uuid":"1489acc6-a854-4343-8b24-239661037f7d","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/general/10002-icon-service-Subscriptions.svg","id":"nsd-app-nav-item-042cb3bb-2a7d-4bbf-a055-c4d718b67981","text":"Subscription","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../../eClassifiers/Tag/index.html';"},"data-nsd-label-uuid":"a6574550-59a3-49b8-9423-1d41cda02f50","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-167d05af-7d19-416a-8a6c-0ddc3d870fba","text":"Tag","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../../eClassifiers/Tenant/index.html';"},"data-nsd-label-uuid":"f6ed6dda-7190-4ee9-8eeb-bd3e115f02e3","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-15ad9451-383a-4215-aa9f-ebeda1f6cf39","text":"Tenant","type":"leaf"},{"a_attr":{"title":"https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/workloads#what-is-a-workload","onclick":"window.location='../../../../../eClassifiers/Workload/index.html';"},"data-nsd-label-uuid":"40a0170b-35c3-4ca8-ba8b-156c9c6f6ece","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-1ef5f2c0-1288-47e1-90c5-a7d301845462","text":"Workload","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../compute/index.html';"},"children":[{"a_attr":{"title":"An HTTP-based service for hosting web applications, REST APIs, and mobile back ends.","onclick":"window.location='../../../../compute/references/eClassifiers/AppService/index.html';"},"data-nsd-label-uuid":"874e69ca-ebf1-4155-98d1-ccd5a5bbe3c3","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10035-icon-service-App-Services.svg","id":"nsd-app-nav-item-184e95bb-9a04-423f-b9d5-0d123073058a","text":"App Service","type":"leaf"},{"a_attr":{"title":"Azure Container Instances (ACI) allows you to quickly and easily run containers on Azure without managing servers or having to learn new tools","onclick":"window.location='../../../../compute/references/eClassifiers/ContainerInstance/index.html';"},"data-nsd-label-uuid":"38b0b9a5-cd1a-4af6-a67e-11aa3ac22ca0","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10104-icon-service-Container-Instances.svg","id":"nsd-app-nav-item-b86ef439-6b35-408d-b0cb-3aa14ec17811","text":"Container Instance","type":"leaf"},{"a_attr":{"title":"A block-level storage volume managed by Azure and used with Azure Virtual Machines","onclick":"window.location='../../../../compute/references/eClassifiers/Disk/index.html';"},"data-nsd-label-uuid":"a9800b8f-4392-4a44-9dd3-79c457ff8656","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10032-icon-service-Disks.svg","id":"nsd-app-nav-item-aef3f411-c0e3-4b5a-bbd1-0a9320d9cd08","text":"Disk","type":"leaf"},{"a_attr":{"title":"Azure managed disks currently offers five disk types, each intended to address a specific customer scenario","onclick":"window.location='../../../../compute/references/eClassifiers/DiskType/index.html';"},"data-nsd-label-uuid":"dc927325-9a65-40cc-b57a-22f301a655c4","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-fe45e85d-0c4b-4631-98cc-87cc3536037e","text":"Disk Type","type":"leaf"},{"a_attr":{"title":"Azure Kubernetes Service (AKS) offers the quickest way to start developing and deploying cloud-native apps in Azure, datacenters, or at the edge with built-in code-to-cloud pipelines and guardrails","onclick":"window.location='../../../../compute/references/eClassifiers/KubernetesService/index.html';"},"data-nsd-label-uuid":"28ec81b4-c863-42cf-ae71-9a3e39207e80","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10023-icon-service-Kubernetes-Services.svg","id":"nsd-app-nav-item-16b82fb9-fb28-4c53-b20b-4671a0b4e82e","text":"Kubernetes Service","type":"leaf"},{"a_attr":{"title":"An image service instance that provides on-demand and scalable computing resources with usage-based pricing","onclick":"window.location='../../../../compute/references/eClassifiers/VirtualMachine/index.html';"},"data-nsd-label-uuid":"c9451a34-6516-4e44-9053-ef932b5f0e14","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10021-icon-service-Virtual-Machine.svg","id":"nsd-app-nav-item-aa639898-5c94-483b-8908-b4570df14970","text":"Virtual Machine","type":"leaf"},{"a_attr":{"title":"Initial contents of a VM disk used to initialize a VM","onclick":"window.location='../../../../compute/references/eClassifiers/VirtualMachineImage/index.html';"},"data-nsd-label-uuid":"37dae764-7ca1-41ba-a95b-2779e95b2857","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10040-icon-service-VM-Images-(Classic).svg","id":"nsd-app-nav-item-d86c9d3d-969a-4528-9a7b-9fe220c8d502","text":"Virtual Machine Image","type":"leaf"},{"a_attr":{"title":"Azure virtual machine scale sets let you create and manage a group of identical, load balanced VMs.","onclick":"window.location='../../../../compute/references/eClassifiers/VirtualMachineScaleSet/index.html';"},"data-nsd-label-uuid":"04b27835-591d-40a1-8c12-644d3dbcb51a","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/compute/10034-icon-service-VM-Scale-Sets.svg","id":"nsd-app-nav-item-b12c7e3b-2662-448b-85c4-b091fad171bc","text":"Virtual Machine Scale Set","type":"leaf"},{"a_attr":{"title":"Size of a virtual machine in terms of CPU and RAM","onclick":"window.location='../../../../compute/references/eClassifiers/VirtualMachineSize/index.html';"},"data-nsd-label-uuid":"2427f225-a1d1-4b1d-a6c6-79d17a00d0e8","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-fe3ed781-e454-4db2-8d33-2b7d41f4c585","text":"Virtual Machine Size","type":"leaf"}],"data-nsd-label-uuid":"fb775845-0e32-42ff-b2b8-bb3b6725d9ef","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif","id":"nsd-app-nav-item-b178d0d9-ee9d-47c3-bcc2-68e41cf7a877","text":"compute"},{"a_attr":{"onclick":"window.location='../../../index.html';"},"children":[{"a_attr":{"onclick":"window.location='../NetworkInterface/index.html';"},"data-nsd-label-uuid":"1a68169f-da74-44c7-81ba-90e99806570b","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/networking/10080-icon-service-Network-Interfaces.svg","id":"nsd-app-nav-item-ffaef484-cd69-4600-b6a4-fd7e687fea97","text":"NetworkInterface","type":"leaf"},{"a_attr":{"title":"https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview","onclick":"window.location='../PrivateEnpoint/index.html';"},"data-nsd-label-uuid":"730c1719-e74a-4c2c-9956-3eb9f6e30fad","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-0108aa1f-16da-4b10-af02-cd42a23e02b4","text":"PrivateEnpoint","type":"leaf"},{"a_attr":{"onclick":"window.location='../PublicEndpoint/index.html';"},"data-nsd-label-uuid":"1487a240-661d-4432-86ae-333ac9f358c5","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-07b5719f-1a2a-433d-98a3-4502b47a82ce","text":"PublicEndpoint","type":"leaf"},{"a_attr":{"onclick":"window.location='../Service/index.html';"},"data-nsd-label-uuid":"6c273d58-cd94-4836-b9e1-8189bd7d81d9","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-60ac2c7a-5f56-4a88-adc4-2399740e4e41","text":"Service","type":"leaf"},{"a_attr":{"onclick":"window.location='../ServiceEndpoint/index.html';"},"data-nsd-label-uuid":"67290709-844e-4662-a0bc-d2977afe19eb","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-885dc403-cca3-4a13-83c0-c699220d1f9e","text":"ServiceEndpoint","type":"leaf"},{"a_attr":{"onclick":"window.location='../Subnet/index.html';"},"data-nsd-label-uuid":"de6fa994-e6e7-4513-b257-9f75e28e8362","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/networking/02742-icon-service-Subnet.svg","id":"nsd-app-nav-item-84a9f53b-bdda-427e-a90d-558d3c29c0b2","text":"Subnet","type":"leaf"},{"a_attr":{"title":"Base class for resources connected to a Subnet","onclick":"window.location='index.html';"},"data-nsd-label-uuid":"5fc104c7-bcaf-47e5-9afe-cc46e67ce85c","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","state":{"selected":true},"id":"nsd-app-nav-item-765b1be0-60e7-4e42-901f-bb25ebf5df85","text":"<i>SubnetResource<\/i>","type":"leaf"},{"a_attr":{"onclick":"window.location='../VirtualNetwork/index.html';"},"data-nsd-label-uuid":"e9c069c9-dd4e-4b40-a9e0-2b13d62b3481","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/networking/10061-icon-service-Virtual-Networks.svg","id":"nsd-app-nav-item-f9b34d76-c37c-44d6-a03a-48679646d678","text":"Virtual Network","type":"leaf"},{"a_attr":{"title":"Base class for resources connected to a Virtual Network","onclick":"window.location='../VirtualNetworkResource/index.html';"},"data-nsd-label-uuid":"b7d1fd3c-c30b-4f6d-ab5b-7a534e9a04d2","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-f659d56d-f8b3-46de-9a99-023508e58f5b","text":"<i>VirtualNetworkResource<\/i>","type":"leaf"}],"data-nsd-label-uuid":"7413bdf3-3889-403b-b99b-a8e0d8d73baf","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif","id":"nsd-app-nav-item-c6292146-fa70-442f-a3eb-99f37a804825","text":"networking"},{"a_attr":{"onclick":"window.location='../../../../storage/index.html';"},"children":[{"a_attr":{"onclick":"window.location='../../../../storage/references/eClassifiers/AzureFiles/index.html';"},"data-nsd-label-uuid":"db61f9a0-fb8a-4447-8bc7-08a830115ea3","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-7be117f8-f4b9-49ad-8eef-2f583461913b","text":"AzureFiles","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../storage/references/eClassifiers/BlobStorage/index.html';"},"data-nsd-label-uuid":"99ae6479-3bfc-4b54-a45a-0f686b213e1c","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-9c917707-2938-4dfc-85ab-bdd43e0ef6b0","text":"BlobStorage","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../storage/references/eClassifiers/DataLakeStorageGen2/index.html';"},"data-nsd-label-uuid":"9d59b77d-b1b9-4734-9f08-a5d942d03fe6","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-0aca6bbf-4a7a-4475-8983-0e6ffd562ec7","text":"DataLakeStorageGen2","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../storage/references/eClassifiers/QueueStorage/index.html';"},"data-nsd-label-uuid":"83f15d71-db5e-4a24-85e6-4ade40ca20cd","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-c9a9e5fe-116e-459d-a731-da23cb6beccc","text":"QueueStorage","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../storage/references/eClassifiers/StorageAccount/index.html';"},"data-nsd-label-uuid":"14814deb-27e2-41f5-8d5a-702091d16aa7","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/storage/10086-icon-service-Storage-Accounts.svg","id":"nsd-app-nav-item-1033e351-e6da-4922-9c14-c87de251bfac","text":"Storage Account","type":"leaf"},{"a_attr":{"onclick":"window.location='../../../../storage/references/eClassifiers/TableStorage/index.html';"},"data-nsd-label-uuid":"63d74d72-e959-45a8-9a50-bf30b4306441","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif","id":"nsd-app-nav-item-045a0dc9-0078-43b9-950e-d3cb988e0e65","text":"TableStorage","type":"leaf"}],"data-nsd-label-uuid":"0e99a062-b356-4d49-b3c3-3f2bd1bff56b","icon":"https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif","id":"nsd-app-nav-item-cf70b471-9098-44e6-b01f-334a05fddb94","text":"storage"}]},"search":{"show_only_matches":true,"show_only_matches_children":true},"types":{"leaf":{"icon":"jstree-file"}},"plugins":["state","type","search"],"state":{"key":"a9f46ad8-c3fa-4424-ba1e-9c7048d6e26c-navigation-panel"}}));
+// Tokens: searchInputSelector, timer, treeSelector
+$('#a9f46ad8-c3fa-4424-ba1e-9c7048d6e26c-navigation-panel_searchInput').keyup(function () {
+    if (window['nsd_jstTreeSearchTimer_nsd_3z0']) { 
+		clearTimeout(window['nsd_jstTreeSearchTimer_nsd_3z0']); 
+	}
+    window['nsd_jstTreeSearchTimer_nsd_3z0'] = setTimeout(function () {
+      var v = $('#a9f46ad8-c3fa-4424-ba1e-9c7048d6e26c-navigation-panel_searchInput').val();
+      $('#a9f46ad8-c3fa-4424-ba1e-9c7048d6e26c-navigation-panel').jstree(true).search(v);
+    }, 250);
+  });
+
+});</script>
+        </div>
+        <div data-nsd-label-uuid="635da476-39ff-4b08-834e-7bba7785e330" data-nsd-action-uris="uuid:635da476-39ff-4b08-834e-7bba7785e330" class="col nsd-app-content-panel">
+          <div class="container-fluid">
+            <div class="row nsd-app-content-panel-breadcrumb-row">
+              <div class="col">
+                <nav aria-label="breadcrumb" class="nsd-app-content-panel-breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="../../../index.html" data-nsd-label-uuid="7413bdf3-3889-403b-b99b-a8e0d8d73baf">
+                        <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif" class="nsd-app-label-icon">networking</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                      <a href="index.html" title="Base class for resources connected to a Subnet" data-nsd-label-uuid="5fc104c7-bcaf-47e5-9afe-cc46e67ce85c">
+                        <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"><i>SubnetResource</i></a>
+                    </li>
+                    <li class="breadcrumb-item active"><span data-nsd-label-uuid="635da476-39ff-4b08-834e-7bba7785e330"><img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon">References</span>
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-title-and-items-row">
+              <div class="col-auto">
+                <h1><span data-nsd-label-uuid="635da476-39ff-4b08-834e-7bba7785e330" class="nsd-app-content-panel-title"><img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon">References</span>
+                </h1>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-content-row">
+              <div class="col">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col">
+<div>
+  <div id="references-table">
+    <nsd-ecore-doc-table :columns="[{&quot;key&quot;:&quot;name&quot;,&quot;visible&quot;:true,&quot;label&quot;:&quot;Name&quot;},{&quot;key&quot;:&quot;description&quot;,&quot;visible&quot;:true,&quot;label&quot;:&quot;Description&quot;},{&quot;visible&quot;:true,&quot;sortable&quot;:true,&quot;label&quot;:&quot;Type&quot;,&quot;key&quot;:&quot;type&quot;},{&quot;visible&quot;:true,&quot;sortable&quot;:true,&quot;label&quot;:&quot;Multiplicity&quot;,&quot;key&quot;:&quot;multiplicity&quot;},{&quot;visible&quot;:true,&quot;sortable&quot;:true,&quot;label&quot;:&quot;Declaring Class&quot;,&quot;key&quot;:&quot;declaring-class&quot;},{&quot;key&quot;:&quot;changeable&quot;,&quot;visible&quot;:true,&quot;label&quot;:&quot;Changeable&quot;},{&quot;key&quot;:&quot;derived&quot;,&quot;visible&quot;:true,&quot;label&quot;:&quot;Derived&quot;}]" :items="[{&quot;name&quot;:&quot;\r\n<a href=\&quot;../../../../../eClassifiers/Resource/references/eStructuralFeatures/locations/index.html\&quot; title=\&quot;A resource can be associated with zero or more locations. E.g. a VM can be deployed to a region or a specific availability zone in a region. A kubernetes cluster can be deployed to several availability zones.\&quot;>\r\n  <img src=\&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif\&quot; class=\&quot;nsd-app-label-icon\&quot;/>locations<\/a>&quot;,&quot;description&quot;:&quot;A resource can be associated with zero or more locations. E.g. a VM can be deployed to a region or a specific availability zone in a region. A kubernetes cluster can be deployed to several availability zones.&quot;,&quot;multiplicity&quot;:&quot;0..*&quot;,&quot;declaring-class&quot;:&quot;<!-- Resource--> \r\n<a href=\&quot;../../../../../eClassifiers/Resource/index.html\&quot; title=\&quot;An entity managed by Azure\&quot;>\r\n  <img src=\&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif\&quot; class=\&quot;nsd-app-label-icon\&quot;/><i>Resource<\/i><\/a>&quot;,&quot;changeable&quot;:&quot;<i class=\&quot;fas fa-check\&quot;><\/i>&quot;,&quot;type&quot;:&quot;<!-- Location--> \r\n<a href=\&quot;../../../../../eClassifiers/Location/index.html\&quot; title=\&quot;A base class for Region and Availability Zone to associate with resource. Some resources may be deployed to multiple locations.\&quot;>\r\n  <img src=\&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif\&quot; class=\&quot;nsd-app-label-icon\&quot;/><i>Location<\/i><\/a>&quot;},{&quot;name&quot;:&quot;<span><img src=\&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif\&quot; class=\&quot;nsd-app-label-icon\&quot;/>resourceTags<\/span>&quot;,&quot;multiplicity&quot;:&quot;<B>0..*<\/B>&quot;,&quot;declaring-class&quot;:&quot;<!-- Resource--> \r\n<a href=\&quot;../../../../../eClassifiers/Resource/index.html\&quot; title=\&quot;An entity managed by Azure\&quot;>\r\n  <img src=\&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif\&quot; class=\&quot;nsd-app-label-icon\&quot;/><i>Resource<\/i><\/a>&quot;,&quot;changeable&quot;:&quot;<i class=\&quot;fas fa-check\&quot;><\/i>&quot;,&quot;type&quot;:&quot;<!-- Tag--> \r\n<a href=\&quot;../../../../../eClassifiers/Tag/index.html\&quot;>\r\n  <img src=\&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif\&quot; class=\&quot;nsd-app-label-icon\&quot;/>Tag<\/a>&quot;},{&quot;name&quot;:&quot;\r\n<b><span><img src=\&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif\&quot; class=\&quot;nsd-app-label-icon\&quot;/>subnet<\/span><\/b>&quot;,&quot;multiplicity&quot;:&quot;0..1&quot;,&quot;declaring-class&quot;:&quot;<!-- SubnetResource--> \r\n<a title=\&quot;Base class for resources connected to a Subnet\&quot;>\r\n  <img src=\&quot;https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif\&quot; class=\&quot;nsd-app-label-icon\&quot;/><i>SubnetResource<\/i><\/a>&quot;,&quot;changeable&quot;:&quot;<i class=\&quot;fas fa-check\&quot;><\/i>&quot;,&quot;type&quot;:&quot;<!-- Subnet--> \r\n<a href=\&quot;../Subnet/index.html\&quot;>\r\n  <img src=\&quot;https://cdn.jsdelivr.net/gh/Nasdanika/architecture@main/cloud/azure/icons/svg/Icons/networking/02742-icon-service-Subnet.svg\&quot; class=\&quot;nsd-app-label-icon\&quot;/>Subnet<\/a>&quot;}]" config-key="eclass-references" transitive-label="Inherited" />
+  </div>
+  <script>new Vue({ el: '#references-table' });</script>
+</div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

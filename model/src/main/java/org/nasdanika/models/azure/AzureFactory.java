@@ -22,6 +22,15 @@ public interface AzureFactory extends EFactory {
 	AzureFactory eINSTANCE = org.nasdanika.models.azure.impl.AzureFactoryImpl.init();
 
 	/**
+	 * Returns a new object of class '<em>Tenant</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Tenant</em>'.
+	 * @generated
+	 */
+	Tenant createTenant();
+
+	/**
 	 * Returns a new object of class '<em>Management Group</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

@@ -16,3 +16,6 @@ Org-specific documentation may suppress elements not used by the organization. E
 Such a customized model/documentation will accelerate cloud adoption. It can be treated as a product with multiple releases. 
 * Automatically populate the baseline architecture model by using Azure API's, cross-link Azure model elements with org-specific elements. Say, a management group with a cost center, and a subscription with a system/application it is associated with. 
 Generate and publish documentation for different stakeholders. Define new architectures on top of the baseline archtiecture.
+
+
+TODO - with introduction of container models - docker and kubernetes - AKS and other element may extend or reference them.

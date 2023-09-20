@@ -74,6 +74,10 @@ public class AzureAdapterFactory extends AdapterFactoryImpl {
 				return createAzureElementAdapter();
 			}
 			@Override
+			public Adapter caseTenant(Tenant object) {
+				return createTenantAdapter();
+			}
+			@Override
 			public Adapter caseManagementGroupElement(ManagementGroupElement object) {
 				return createManagementGroupElementAdapter();
 			}
@@ -152,6 +156,20 @@ public class AzureAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createAzureElementAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link org.nasdanika.models.azure.Tenant <em>Tenant</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see org.nasdanika.models.azure.Tenant
+	 * @generated
+	 */
+	public Adapter createTenantAdapter() {
 		return null;
 	}
 

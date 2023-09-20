@@ -85,6 +85,43 @@ public interface AzurePackage extends EPackage {
 	int AZURE_ELEMENT_OPERATION_COUNT = 0;
 
 	/**
+	 * The meta object id for the '{@link org.nasdanika.models.azure.impl.TenantImpl <em>Tenant</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.nasdanika.models.azure.impl.TenantImpl
+	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getTenant()
+	 * @generated
+	 */
+	int TENANT = 1;
+
+	/**
+	 * The feature id for the '<em><b>Management Groups</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TENANT__MANAGEMENT_GROUPS = AZURE_ELEMENT_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of structural features of the '<em>Tenant</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TENANT_FEATURE_COUNT = AZURE_ELEMENT_FEATURE_COUNT + 1;
+
+	/**
+	 * The number of operations of the '<em>Tenant</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TENANT_OPERATION_COUNT = AZURE_ELEMENT_OPERATION_COUNT + 0;
+
+	/**
 	 * The meta object id for the '{@link org.nasdanika.models.azure.impl.ManagementGroupElementImpl <em>Management Group Element</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -92,7 +129,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getManagementGroupElement()
 	 * @generated
 	 */
-	int MANAGEMENT_GROUP_ELEMENT = 1;
+	int MANAGEMENT_GROUP_ELEMENT = 2;
 
 	/**
 	 * The number of structural features of the '<em>Management Group Element</em>' class.
@@ -120,7 +157,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getManagementGroup()
 	 * @generated
 	 */
-	int MANAGEMENT_GROUP = 2;
+	int MANAGEMENT_GROUP = 3;
 
 	/**
 	 * The feature id for the '<em><b>Elements</b></em>' containment reference list.
@@ -157,7 +194,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getSubscription()
 	 * @generated
 	 */
-	int SUBSCRIPTION = 3;
+	int SUBSCRIPTION = 4;
 
 	/**
 	 * The feature id for the '<em><b>Resource Groups</b></em>' containment reference list.
@@ -194,7 +231,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getResourceGroup()
 	 * @generated
 	 */
-	int RESOURCE_GROUP = 4;
+	int RESOURCE_GROUP = 5;
 
 	/**
 	 * The feature id for the '<em><b>Resources</b></em>' containment reference list.
@@ -231,7 +268,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getResource()
 	 * @generated
 	 */
-	int RESOURCE = 5;
+	int RESOURCE = 6;
 
 	/**
 	 * The feature id for the '<em><b>Locations</b></em>' reference list.
@@ -277,7 +314,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getGenericResource()
 	 * @generated
 	 */
-	int GENERIC_RESOURCE = 6;
+	int GENERIC_RESOURCE = 7;
 
 	/**
 	 * The feature id for the '<em><b>Locations</b></em>' reference list.
@@ -332,7 +369,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getLocation()
 	 * @generated
 	 */
-	int LOCATION = 7;
+	int LOCATION = 8;
 
 	/**
 	 * The number of structural features of the '<em>Location</em>' class.
@@ -360,7 +397,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getRegion()
 	 * @generated
 	 */
-	int REGION = 8;
+	int REGION = 9;
 
 	/**
 	 * The feature id for the '<em><b>Availability Zones</b></em>' containment reference list.
@@ -397,7 +434,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getAvailabilityZone()
 	 * @generated
 	 */
-	int AVAILABILITY_ZONE = 9;
+	int AVAILABILITY_ZONE = 10;
 
 	/**
 	 * The number of structural features of the '<em>Availability Zone</em>' class.
@@ -425,7 +462,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getRegionPair()
 	 * @generated
 	 */
-	int REGION_PAIR = 10;
+	int REGION_PAIR = 11;
 
 	/**
 	 * The number of structural features of the '<em>Region Pair</em>' class.
@@ -453,7 +490,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getWorkload()
 	 * @generated
 	 */
-	int WORKLOAD = 11;
+	int WORKLOAD = 12;
 
 	/**
 	 * The number of structural features of the '<em>Workload</em>' class.
@@ -481,7 +518,7 @@ public interface AzurePackage extends EPackage {
 	 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getTag()
 	 * @generated
 	 */
-	int TAG = 12;
+	int TAG = 13;
 
 	/**
 	 * The feature id for the '<em><b>Key</b></em>' attribute.
@@ -529,6 +566,27 @@ public interface AzurePackage extends EPackage {
 	 * @generated
 	 */
 	EClass getAzureElement();
+
+	/**
+	 * Returns the meta object for class '{@link org.nasdanika.models.azure.Tenant <em>Tenant</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Tenant</em>'.
+	 * @see org.nasdanika.models.azure.Tenant
+	 * @generated
+	 */
+	EClass getTenant();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.nasdanika.models.azure.Tenant#getManagementGroups <em>Management Groups</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Management Groups</em>'.
+	 * @see org.nasdanika.models.azure.Tenant#getManagementGroups()
+	 * @see #getTenant()
+	 * @generated
+	 */
+	EReference getTenant_ManagementGroups();
 
 	/**
 	 * Returns the meta object for class '{@link org.nasdanika.models.azure.ManagementGroupElement <em>Management Group Element</em>}'.
@@ -784,6 +842,24 @@ public interface AzurePackage extends EPackage {
 		 * @generated
 		 */
 		EClass AZURE_ELEMENT = eINSTANCE.getAzureElement();
+
+		/**
+		 * The meta object literal for the '{@link org.nasdanika.models.azure.impl.TenantImpl <em>Tenant</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.nasdanika.models.azure.impl.TenantImpl
+		 * @see org.nasdanika.models.azure.impl.AzurePackageImpl#getTenant()
+		 * @generated
+		 */
+		EClass TENANT = eINSTANCE.getTenant();
+
+		/**
+		 * The meta object literal for the '<em><b>Management Groups</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TENANT__MANAGEMENT_GROUPS = eINSTANCE.getTenant_ManagementGroups();
 
 		/**
 		 * The meta object literal for the '{@link org.nasdanika.models.azure.impl.ManagementGroupElementImpl <em>Management Group Element</em>}' class.
