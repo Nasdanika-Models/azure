@@ -42,24 +42,21 @@ In this case:
     * Hiding (suppressing) model elements which the organization is not going to use at a particular stage of adoption. For example, [queue storage](https://azure.microsoft.com/en-us/products/storage/queues) may be out of scope for the wave X of aoption.
     * Customizing documentation of the remaining elements. E.g. the generic documentation which explains how to create a subscription via the portal, API, SDK's etc. might be replaced with org-specific documentation which explains that a new subscription shall be created by creating an [IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) pipeline in a source repository and then creating a pull request. Or by submitting a request in the internal service management system.
     * Creating flavors of documentation for different technologies
-* Segments may further customize documentation to address their specifics, e.g. the legal landscape or segment level technology choices. For example, the central function may provide a choice of cloud databases, and a segment may standardize on a subset.
+* Segments may further customize documentation to address their specifics, e.g. the legal landscape or segment level technology choices. For example, the central function may provide a choice of cloud databases or VM/container images, and a segment may standardize on a subset.
 * Development teams may customize even further. For example, by providing documentation how to deploy components built using in-house developed technologies.
-    
-...
+
+In the above scenario specializations the right of the enterprise continuum may contribute to more generic documentation to the left of the continuum. 
+For example, a segment may create a better way of doing things and the central function may adopt it for other segments to reuse. 
+Another variant - a segment may pilot a new way of doing things and then contribute refinements to the central function. 
+One way to do it is [fork/pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
+
+### Architecture repository
+
+Use the metamodel to create a model populated with data retrieved from information systems - Azure, internal systems, ...
+Create specialized subclasses where needed. E.g. there might be a subclass of Azure subscription with a bi-directional reference to some internal model element, e.g. a cost center. 
+The loading process may read a tag or a mapping Excel spreadsheet to establish such a linkage. Once it is established, it can be used to traverse the model for analysis and reporting. 
+There might be different reports/data formats delivered to multiple stakeholders using multiple delivery vehicles. See [Architecture](https://github.com/Nasdanika-Models/architecture) and [TOGAF](https://github.com/Nasdanika-Models/togaf) models for additional details.
+The Azure model may be used in conjunction with the above models. E.g. there might be a specialization of those models where Azure elements such as [Subscription](https://azure.models.nasdanika.org/references/eClassifiers/Subscription/index.html) and [Resource](https://azure.models.nasdanika.org/references/eClassifiers/Resource/index.html) extend [Solution Building Block](https://togaf.models.nasdanika.org/core/references/eClassifiers/SolutionBuidingBlock/index.html).
 
 
-
-In the long run the element may extend Solution Building BLock from the [Architecture](https://github.com/Nasdanika-Models/architecture)/[TOGAF](https://github.com/Nasdanika-Models/togaf) models.
-
-Use cases:
-
-* Develop architecture as code using the Azure model, generate documentation. The generated documentation pages will reference the Azure model documentation pages making it easier to understand the architecture model/documentation.
-* Fork/clone and modify the model documentation and perhaps subclass model elements to reflect organization specifics. For example, the "generic" Azure documentation would explain that a new subscription can be created in the Azure portal etc. 
-An organization-specific documentation may replace the generic documentation and explain that a new subscription shall be created by creating an [IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) pipeline in a source repository and then creating a pull request.
-Org-specific documentation may suppress elements not used by the organization. E.g. if an organization doesn't use, say, [queue storage](https://azure.microsoft.com/en-us/products/storage/queues), then it will be suppressed in the org-specific model and wouldn't appear in the documentation.
-Such a customized model/documentation will accelerate cloud adoption. It can be treated as a product with multiple releases. 
-* Automatically populate the baseline architecture model by using Azure API's, cross-link Azure model elements with org-specific elements. Say, a management group with a cost center, and a subscription with a system/application it is associated with. 
-Generate and publish documentation for different stakeholders. Define new architectures on top of the baseline archtiecture.
-
-
-TODO - with introduction of container models - docker and kubernetes - AKS and other element may extend or reference them.
+  
